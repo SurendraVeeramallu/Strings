@@ -1,7 +1,12 @@
-
 friends = {"A", "B", "C"}
 
-new_friend = friends.add("D")
+# To add for the lists
+friends.add("D")
 
-print(new_friend)
+print(friends)
 
+# To remove from the lists
+# In print the out come will not be in the order
+friends.remove("A")
+
+print(friends)
